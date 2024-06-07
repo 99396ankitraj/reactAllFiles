@@ -12,7 +12,7 @@ const addValue = ()=>{
   console.log("clicked add",counter);
   //  this will increament its value by only 1
   // setCounter(counter + 1)
-  // setCounter(counter + 1)
+  // setCounter(counter + 2)
   // setCounter(counter + 1)
   // setCounter(counter + 1)
 
@@ -27,7 +27,7 @@ const addValue = ()=>{
 
 const removeValue = ()=>{
   console.log("clicked remove",counter);
-  // counter++;
+  
   setCounter(counter - 1)
 }
 
