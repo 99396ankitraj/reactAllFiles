@@ -1,9 +1,15 @@
 import './App.css'
+import Profile from './components/Profile'
+import Login from './components/Login89'
+import UserContextProvider from './context/UserContextProvider'
 
 function App() {
   return (
     <>
-      <h1>Ankit Rajput</h1>
+      <UserContextProvider>
+        <Login />
+        <Profile />
+      </UserContextProvider>
     </>
   )
 }
