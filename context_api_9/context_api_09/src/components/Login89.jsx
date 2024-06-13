@@ -3,7 +3,7 @@ import UserContext from '../context/UserContext'
 
 const Login89 = () => {
   const [username ,setUsername] = useState('')
-    const [password ,setPassword] = useState('')
+  const [password ,setPassword] = useState('')
 
     const {setUser} = useContext(UserContext)
 
