@@ -1,10 +1,14 @@
 import './App.css'
+import AddTodo from './components/AddTodo'
+import Todos from './components/Todos'
 
 function App() {
 
   return (
     <>
-     <h1>Ankit rajput</h1>
+    <div>Learn about redux toolkit </div>
+    <AddTodo />
+    <Todos />
     </>
   )
 }
